@@ -347,6 +347,7 @@ body{
   background-color: #87CEEB;
   position: absolute;
   background: linear-gradient(180deg, #87CEEB 0%, #87CEEB 40%, #AADDFF 60%, #EEEEFF 100% );
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
 }
 .blue_grad{
   width: 1000px;
