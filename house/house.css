@@ -340,6 +340,7 @@ body{
   position: relative;
   top: -420px;
   left: 150px;
+  box-shadow: 0 0 25px 10px gold;
 }	
 .terra{
   width: 1000px;
@@ -369,7 +370,7 @@ body{
   width: 150px;
   height: 300px;
   position: relative;
-  background-color: green;
+  background-color: #166013;
   top: -725px;
   left: 825px;
   border-radius: 150px 150px 150px 150px;
@@ -377,53 +378,58 @@ body{
 }
 .g1{
   position: relative;
-  top: -1097px;
-  left: 641px;
-  background-color: #87CEEB;
-  width: 20px;
-  height: 20px;
-  border: 3px solid rgba(0,0,0,.2);
+  top: -1080px;
+  left: 650px;
+  background-color: black;
+  width: 0px;
+  height: 0px;
+  border: 0px solid rgba(0,0,0,.2);
   border-radius: 15px;
+  box-shadow: 0 0 30px 15px black;
 }
 .g2{
   position: relative;
-  top: -1130px;
-  left: 647px;
+  top: -1095px;
+  left: 667px;
   background-color: #87CEEB;
-  width: 20px;
-  height: 20px;
-  border: 3px solid rgba(0,0,0,.2);
+  width: 0px;
+  height: 0px;
+  border: 0px solid rgba(0,0,0,.2);
   border-radius: 15px;
+  box-shadow: 0 0 30px 15px black;
 }
 .g3{
   position: relative;
-  top: -1163px;
-  left: 653px;
+  top: -1100px;
+  left: 690px;
   background-color: #87CEEB;
-  width: 20px;
-  height: 20px;
-  border: 3px solid rgba(0,0,0,.2);
-  border-radius: 15px;	
+  width: 0px;
+  height: 0px;
+  border: 0px solid rgba(0,0,0,.2);
+  border-radius: 15px;
+  box-shadow: 0 0 30px 15px black;	
 }
 .g4{
   position: relative;
-  top: -1196px;
-  left: 659px;
+  top: -1100px;
+  left: 715px;
   background-color: #87CEEB;
-  width: 20px;
-  height: 20px;
-  border: 3px solid rgba(0,0,0,.2);
+  width: 0px;
+  height: 0px;
+  border: 0px solid rgba(0,0,0,.2);
   border-radius: 15px;
+  box-shadow: 0 0 30px 17px black;
 }
 .g5{
   position: relative;
-  top: -1227px;
-  left: 666px;
+  top: -1105px;
+  left: 740px;
   background-color: #87CEEB;
-  width: 20px;
-  height: 20px;
-  border: 3px solid rgba(0,0,0,.2);
+  width: 0px;
+  height: 0px;
+  border: 0px solid rgba(0,0,0,.2);
   border-radius: 15px;
+  box-shadow: 0 0 30px 15px black;
 }
 .road{
   width: 8px;
@@ -434,5 +440,5 @@ body{
   position: relative;
   border: 2px solid rgba(0,0,0,.2);
   left: 230px;
-  top: -795px;
+  top: -665px;
 }
