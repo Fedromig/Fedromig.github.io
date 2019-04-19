@@ -1,4 +1,4 @@
-var veq = 0;
+  var veq = 0;
   function even(){
   number = document.getElementById("ven").innerHTML;
   rezult = document.getElementById("inputcalc").innerHTML;
@@ -255,9 +255,13 @@ function com(){
   } 
 }
 function p_and_m(){
-  strng = document.getElementById("inputcalc").innerHTML;
-  string = -(document.getElementById("inputcalc").innerHTML);
-  document.getElementById("inputcalc").innerHTML = string;
+  alt = document.getElementById("inputcalc").innerHTML;
+  if(~alt.indexOf('*')){document.getElementById("inputcalc").innerHTML = '*' + (alt.substring(1, alt.length))*-1; zn = '*';}
+  if(~alt.indexOf('+')){document.getElementById("inputcalc").innerHTML = '+' + (alt.substring(1, alt.length))*-1; zn = '+';}
+  if(~alt.indexOf('/')){document.getElementById("inputcalc").innerHTML = '/' + (alt.substring(1, alt.length))*-1; zn = '/';}
+  else
+  if(~alt.indexOf('/')){(document.getElementById("inputcalc").innerHTML) * -1;
+  document.getElementById("inputcalc").innerHTML = alt;}
 }
 function procent(){
   alt = document.getElementById("inputcalc").innerHTML;
