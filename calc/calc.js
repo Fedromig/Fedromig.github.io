@@ -259,9 +259,7 @@ function p_and_m(){
   if(~alt.indexOf('*')){document.getElementById("inputcalc").innerHTML = '*' + (alt.substring(1, alt.length))*-1; zn = '*';}
   if(~alt.indexOf('+')){document.getElementById("inputcalc").innerHTML = '+' + (alt.substring(1, alt.length))*-1; zn = '+';}
   if(~alt.indexOf('/')){document.getElementById("inputcalc").innerHTML = '/' + (alt.substring(1, alt.length))*-1; zn = '/';}
-  else
-  if(~alt.indexOf('/')){(document.getElementById("inputcalc").innerHTML) * -1;
-  document.getElementById("inputcalc").innerHTML = alt;}
+  if(document.getElementById("trezult").innerHTML == ""){alt *= -1; document.getElementById("inputcalc").innerHTML = alt;}
 }
 function procent(){
   alt = document.getElementById("inputcalc").innerHTML;
